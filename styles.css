@@ -1,0 +1,81 @@
+/*Styling for the top of the page */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.teams{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.left{
+    display: flex;
+}
+
+.teams > .left > .nav-link-wrapper {
+    margin-right: 25px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.teams > .right > .espn {
+    margin-right: 25px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+/*Link styling*/
+.nav-link-wrapper a {
+    color: rgb(0, 148, 0);
+    border-bottom: transparent;
+    text-decoration: none;
+}
+
+.espn a {
+    color: rgb(0, 148, 0);
+    border-bottom: transparent;
+    text-decoration: none;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1.5px solid yellow;
+}
+
+.nav-link-wrapper:hover a {
+    color: black;
+}
+
+.espn:hover {
+    border-bottom: 1.5px solid yellow;
+}
+
+.espn:hover a {
+    color: black;
+}
+
+
+/*Team Styling*/
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+
+
+
+
+
+
+  
+  
+  
+
