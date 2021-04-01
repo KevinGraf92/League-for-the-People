@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -63,10 +63,29 @@ body {
 
 
 /*Team Styling*/
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
 
-.logo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
+
+@media (min-width: 800px){
+    .team-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        
+    }
+}
+
+@media (min-width: 1020px) {
+    .team-wrapper{
+        grid-template-columns: repeat(3, 33%);
+    }
+    .last{
+        grid-column: 1/4;
+    }
 }
 
 
@@ -74,8 +93,9 @@ body {
 
 
 
+  
+  
+  
 
-  
-  
-  
+
 
