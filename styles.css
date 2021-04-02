@@ -6,6 +6,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    background-color: black;
     
 }
 
@@ -68,14 +69,38 @@ body {
     color: black;
 }
 
+/* Stylign to the Homepage */
+
+
+
+.knight {
+    background-color: darkblue;
+}
+
 
 /*Team Styling*/
 .team-wrapper {
     display: flex;
     flex-direction: column;
     margin: auto; 
-    background-image: url();
+    
 
+}
+
+.team-owner{
+    font-family: inherit;
+    font-size: .6em;
+    color: rgb(0, 148, 0);
+    
+}
+
+.east {
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+.west {
+    font-family: unset;
 }
 
 
