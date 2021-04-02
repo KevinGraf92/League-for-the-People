@@ -8,38 +8,40 @@ body {
     flex-direction: column;
 }
 
-
-
 .teams{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    
 }
 
 .left{
     display: flex;
 }
 
+/*Link styling*/
+
 .teams > .left > .nav-link-wrapper {
     margin-right: 25px;
     font-size: .9em;
     text-transform: uppercase;
+    font-family: fantasy;
 }
 
-.teams > .right > .espn {
+.teams > .right > .people {
     margin-right: 25px;
     font-size: .9em;
     text-transform: uppercase;
+    font-family: fantasy;
 }
 
-/*Link styling*/
 .nav-link-wrapper a {
     color: rgb(0, 148, 0);
     border-bottom: transparent;
     text-decoration: none;
 }
 
-.espn a {
+.people a {
     color: rgb(0, 148, 0);
     border-bottom: transparent;
     text-decoration: none;
@@ -53,11 +55,12 @@ body {
     color: black;
 }
 
-.espn:hover {
+.people:hover {
     border-bottom: 1.5px solid yellow;
+    
 }
 
-.espn:hover a {
+.people:hover a {
     color: black;
 }
 
@@ -66,8 +69,9 @@ body {
 .team-wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    
+    margin: auto; 
+    background-image: url();
+
 }
 
 
@@ -75,17 +79,23 @@ body {
     .team-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 50%);
+        gap: 10px;
+    }
+
+    .left {
+        flex-direction: column;
         
     }
-}
+
+    }
+
 
 @media (min-width: 1020px) {
     .team-wrapper{
         grid-template-columns: repeat(3, 33%);
     }
-    .last{
-        grid-column: 1/4;
-    }
+
+
 }
 
 
