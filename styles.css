@@ -85,12 +85,12 @@ body {
 
   h1 {
       text-align: center;
-      font-size: 4.5em;
+      font-size: 6.5em;
       color: rgb(0, 148, 0);
   }
   
   p {
-      font-size: 20px;
+      font-size: 25px;
       font-family: sans-serif;
       text-align: center;
       margin: auto;
@@ -127,7 +127,26 @@ body {
 
 .west {
     font-family: unset;
+    text-align: center;
 }
+
+/* Button Style*/
+ .btn {
+     color: rgb(0, 148, 0);
+     font-size: 1em;
+     background-color: gold;
+     text-align: center;
+     margin: auto;
+     display: flex;
+
+ }
+
+ .winners{
+     color: rgb(0, 148, 0);
+     text-align: center
+ }
+
+
 
 
 @media (min-width: 800px){

@@ -144,7 +144,7 @@
 
               </div>
 
-              <div class="team-card last">
+              <div class="team-card">
                 <img src="team-Photos/team10.jpg">
                 <div class="team-owner">
                   <h1 class="east">
@@ -160,11 +160,26 @@
 
              </section>
 
+        </div>
 
-    </body>  
-    
-    </div>
 
+        <script>
+          function ShowAndHide() {
+              var x = document.getElementById('SectionName');
+              if (x.style.display == 'none') {
+                  x.style.display = 'block';
+              } else {
+                  x.style.display = 'none';
+              }
+          }
+      </script>
+      <button class=btn onclick="ShowAndHide()">League Winners</button>
+
+          <div class="winners" ID="SectionName">2012 East Atlanta Birds<br> 2013 Team Scold<br> 2014 Team Heisenberg<br> 2015 One Day Y Guy<br> 2016 x2<br> 2017 Absent T<br> 2018 Tholt Goat<br> 2019 Tholt Goat<br> 2020 Tholt Goat<br>
+          </div>
+          
+
+     </body>
 </html>
 
 
