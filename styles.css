@@ -6,6 +6,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    
 }
 
 .teams{
@@ -19,20 +20,23 @@ body {
     display: flex;
 }
 
+
+
 /*Link styling*/
 
 .teams > .left > .nav-link-wrapper {
     margin-right: 25px;
-    font-size: .9em;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-family: fantasy;
 }
 
 .teams > .right > .people {
-    margin-right: 25px;
-    font-size: .9em;
+    margin-right: 15px;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-family: fantasy;
+    
 }
 
 .nav-link-wrapper a {
@@ -84,6 +88,7 @@ body {
 
     .left {
         flex-direction: column;
+    
         
     }
 
